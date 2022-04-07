@@ -33,7 +33,7 @@ const Categories=()=>{
     return <Wrapper className='w-9/12 mx-auto p-4 my-6'>
         <Grid className='grid-cols-5 gap-6 place-items-center place-content-center'>
             { category.map((cat)=><CategoryItem title={cat.title}>
-                <img src={cat.img} width={56}/>
+                <img src={cat.img} width={56} alt={cat.title}/>
                 
             </CategoryItem>)}
         </Grid>

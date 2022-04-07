@@ -18,9 +18,9 @@ const Search=()=>{
                 <Flex className="text-sm gap-2">
                     <div>Common Topics</div>
                     <Flex className="space-x-1 text-sm text-blue-500">
-                        <a href='#'>channels</a>,
-                        <a href='#'>threads</a>,
-                        <a href='#'>messages</a>
+                        <a href='/'>channels</a>,
+                        <a href='/'>threads</a>,
+                        <a href='/'>messages</a>
                     </Flex>
                 </Flex>
             </Grid>
